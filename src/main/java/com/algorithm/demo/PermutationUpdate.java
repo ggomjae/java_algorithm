@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PermutationUpdate {
-    public static int result;
 
     public static void main(String[] args) {
 
@@ -21,7 +20,7 @@ public class PermutationUpdate {
         reculsionTwo(arr, result, 0, arr.size(), 2);
     }
 
-
+    //* @param index  : 반복문 시작 인덱스
     private static void reculsionOne(List<String> arr, List<String> result,  int n, int r) {
 
         if (r == 0) {

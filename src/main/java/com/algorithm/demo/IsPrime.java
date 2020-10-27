@@ -18,7 +18,7 @@ class IsPrime {
             // prime[i]가 소수라면
             if(!prime[i]){
                 // prime[j] 소수가 아닌 표시
-                for(int j=i*i; j<=N; j+=i) prime[j] = true;
+                for(int j=i+i; j<=N; j+=i) prime[j] = true;
             }
         }
 

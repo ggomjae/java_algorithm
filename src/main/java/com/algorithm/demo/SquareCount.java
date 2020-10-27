@@ -3,6 +3,7 @@ package com.algorithm.demo;
 public class SquareCount {
     public static void main(String[] args){
         int[][] board = new int[3][];
+//         int[][] a = new int[][] {}; 이렇게 선언간으.
         int n = 3;
         for(int i = 0 ; i < n ; ++i){
             for(int j = 0 ; j < n ; ++j){

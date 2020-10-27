@@ -12,12 +12,13 @@ public class PermutationTwo {
         String str = "1234";
         boolean[] visited = new boolean[str.length()];
         StringBuilder sb = new StringBuilder();
+
         permutation(str,visited,sb);
         while(!stack.isEmpty()){
             System.out.println(stack.pop());
         }
     }
-    static void permutation(String str,boolean[] visited,StringBuilder sb){
+    static void permutation(String str, boolean[] visited, StringBuilder sb){
 
         boolean check = true;
         for(int i = 0 ; i < visited.length ; ++i){
