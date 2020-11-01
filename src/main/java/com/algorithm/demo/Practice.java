@@ -3,6 +3,8 @@ package com.algorithm.demo;
 import java.sql.SQLOutput;
 import java.util.*;
 
+import static java.util.Arrays.*;
+
 public class Practice {
 
     public static class Node implements Comparable<Node>{
@@ -21,8 +23,49 @@ public class Practice {
 
     public static void main(String[] args) throws Exception {
 
-        Node node = new Node(3);
-        System.out.println(node.leftNode);
+
+
+
+//        String s = "";
+//        System.out.println(s.isEmpty());
+//        System.out.println(s.equals(""));
+
+//        HashSet<Integer> hashSet = new HashSet<>();
+//        hashSet.add(1);
+//        hashSet.add(3);
+//        hashSet.add(2);
+//        List<Integer> list = new ArrayList<>();
+//        list.addAll(hashSet);
+//
+//        for(int i : list) System.out.println(i);
+
+//        Map<String,Integer> map = new HashMap<>();
+//        map.put("min",3);
+//        map.put("kyung",4);
+//        HashSet<String> hs = new HashSet<>();
+//
+//        Iterator<String> iter = map.keySet().iterator();
+//
+//        while(iter.hasNext()){
+//            String s = iter.next();
+//            System.out.println(map.get(s));
+//        }
+
+
+
+//        Node node = new Node(3);
+//        System.out.println(node.leftNode);
+
+//        PriorityQueue<Integer> pq = new PriorityQueue<>();
+//        pq.offer(3);
+//        pq.offer(2);
+//        pq.offer(10);
+//        pq.offer(9);
+//
+//        pq.remove(2);
+//        while(!pq.isEmpty()){
+//            System.out.println(pq.poll());
+//        }
 
 //        List<Node> list = new ArrayList<>();
 //        list.add(new Node(2));
